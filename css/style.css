@@ -8,14 +8,14 @@ html body {
   padding: 0;
   max-height: 100%;
   max-width: 100%;
-  background-color: Azure; 
+  background-color: white; 
   overflow-x: hidden !important;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
 }
 
 .head {
   position: relative;
   width: 100%;
-  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -24,7 +24,7 @@ html body {
 .jumbotron {
   position: relative;
   height: 550px;
-  background-image:url("../img/taal_view_2.jpg");
+  background-image:url("../img/taal_view.jpg");
   background-size: cover; 
   background-position: center;
   color: white;
@@ -38,11 +38,10 @@ html body {
 .jumbotron h1 {
   position: relative;
   top: 180px;
-  font-size: 75px;
-  font-weight: 100;
+  font-size: 72px;
+  font-weight: 300;
   color: white;
-  letter-spacing: 0.075em;
-  text-shadow: 4px 3px 4px rgba(0,0,0,0.1);
+  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -53,15 +52,17 @@ html body {
   top: 180px;
   font-size: 9px;
   font-style: italic;
-  opacity: 0.50;
+  font-weight: 300;
+  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
+  /*opacity: 0.50;*/
 }
 
 nav {
   position: relative;
-  padding: 25px 0;
+  padding: 16px 0;
   margin: 0;
   display: inline-block;
-  word-spacing: 2em;
+  word-spacing: 2.3em;
   background-color: #1a1a1a;
   color: white;
   font-size: 18px;
@@ -75,14 +76,13 @@ nav a {
 }
 
 nav a:hover {
-  color: aquamarine;
+  color: gray;
   text-decoration: underline;
 }
 
 h3 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 32px;
-  font-weight: 100;
+  font-size: 34px;
+  font-weight: 300;
   text-align: center;
   padding-bottom: 17px;
 }
@@ -96,14 +96,19 @@ h3 {
 .about {
   position: relative;
   top: 50px;
-  text-align: justify;
   line-height: 20px;
   margin-bottom: 100px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px 2px hsla(0,0%,0%,0.3); 
 }
 
 .col-sm-6 .profile_pic {
  text-align:center;
  padding-bottom: 20px;
+}
+
+.about p, dl {
+  font-size: 15px;
 }
 
 .profile_pic img {
@@ -113,12 +118,13 @@ h3 {
 }
 
 .about a {
-  text-decoration: underline;
   color: #333333;
+  font-weight: bold;
 }
 
 .about a:hover {
   color: gray;
+  text-decoration: underline;
 }
 
 .about dd {
@@ -127,22 +133,27 @@ h3 {
 
 .works {
   position: relative;
-  margin-bottom: 50px;
-  padding-bottom: 0px;
+  margin-bottom: 100px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px 2px hsla(0,0%,0%,0.3);
 }
 
-.works h4 {
-  text-align: center;
+.works img {
+  height: 100%;
+  width: 100%;
 }
 
 .works a {
   text-decoration: none;
   color: #333333;
+  text-align: center;
+  font-family: Lato, Helvetica, sans-serif;
 }
 
 .works a:hover {
   color: gray;
   text-decoration: underline;
+  font-family: Lato, Helvetica, sans-serif;
 }
 
 .works a:hover img{
@@ -151,8 +162,10 @@ h3 {
 
 .skills {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   text-align: center;
+  padding: 20px;
+  box-shadow: 0px 4px 6px 2px hsla(0,0%,0%,0.3); 
 }
 
 .skills li {
@@ -166,13 +179,8 @@ h3 {
 
 .contact {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px 2px hsla(0,0%,0%,0.3); 
 }
 
-
-p {
-
-   }
-
-a {
-   }
