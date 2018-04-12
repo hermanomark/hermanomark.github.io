@@ -10,7 +10,7 @@ html body {
   max-width: 100%;
   background-color: white; 
   overflow-x: hidden !important;
-  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 .head {
