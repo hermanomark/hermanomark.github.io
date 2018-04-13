@@ -23,7 +23,7 @@ html body {
 
 .jumbotron {
   position: relative;
-  height: 550px;
+  height: 610px;
   background-image:url("../img/taal_view.jpg");
   background-size: cover; 
   background-position: center;
