@@ -16,7 +16,6 @@ html body {
 .head {
   position: relative;
   width: 100%;
-  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -38,22 +37,45 @@ html body {
   position: relative;
   top: 180px;
   font-size: 72px;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   margin: 0;
   padding: 0;
-  width: 100%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);
 }
 
+.head .caption1 {
+  margin-left: 265px;
+  margin-right: 265px;
+}
+
+.head .caption2 {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding:;
+}
+
+/*.background_h1 {
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);
+  border: 0px;
+}
+*/
 .jumbotron p {
   position: relative;
   top: 180px;
-  font-size: 9px;
-  font-style: italic;
+  font-size: 15px;
+  font-weight: bold !important;
+  /*font-style: italic;*/
   font-weight: 300;
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   color: white;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
   /*opacity: 0.50;*/
 }
 
@@ -87,7 +109,7 @@ nav a:hover {
 
 h3 {
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 17px;
 }
@@ -102,7 +124,7 @@ h3 {
   position: relative;
   padding: 50px 0 50px 0;
   line-height: 20px;
-  background-color: lavender ;
+  background-color: white ;
   box-shadow: 0px 2px 3px 0px hsla(0,0%,0%,0.1);
 }
 
@@ -118,7 +140,7 @@ h3 {
 .profile_pic img {
   height: 70%;
   width: 70%;
-  border-radius: 8px;
+  /*border-radius: 4px;*/
   box-shadow: 0px 2px 3px 2px hsla(0,0%,0%,0.2);
 }
 
@@ -155,12 +177,16 @@ h3 {
 
 .works .container {
   background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0px 2px 3px 2px hsla(0,0%,0%,0.2);*/
+  /*border-radius: 4px;*/
 }
 
 .works img {
   height: 100%;
   width: 100%;
+  /*border-radius: 4px;*/
+  box-shadow: 0px 2px 3px 2px hsla(0,0%,0%,0.2);
 }
 
 .works a {
@@ -184,6 +210,7 @@ h3 {
   position: relative;
   padding: 50px 0 50px 0;
   text-align: center;
+  background-color: white;
 }
 
 .skills li {
