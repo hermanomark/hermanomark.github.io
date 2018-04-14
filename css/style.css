@@ -42,20 +42,10 @@ html body {
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   margin: 0;
   padding: 0;
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);
+  /*background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);*/
 }
 
-.head .caption1 {
-  margin-left: 265px;
-  margin-right: 265px;
-}
-
-.head .caption2 {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding:;
-}
 
 /*.background_h1 {
   background: rgb(0, 0, 0); 
@@ -72,8 +62,8 @@ html body {
   font-weight: 300;
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   color: white;
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);
+  /*background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.3);*/
   margin: 0;
   padding: 0;
   /*opacity: 0.50;*/
@@ -101,7 +91,7 @@ nav a {
 }
 
 nav a:hover {
-  /*ransition: 0.6s;*/
+  /*transition: 0.6s;*/
   color: gray;
   text-decoration: underline;
   /*text-shadow: 3px 2px 3px rgba(0,0,0,0.1);*/
