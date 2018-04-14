@@ -7,7 +7,7 @@ html body {
   margin: 0;
   padding: 0;
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   background-color: white; 
   overflow-x: hidden !important;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -15,9 +15,9 @@ html body {
 
 .head {
   position: relative;
-  width: 100%;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .head .jumbotron {
@@ -27,21 +27,21 @@ html body {
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
   /*background-repeat: no-repeat;
   background-position: center; */
   /*background-attachment: fixed;*/
 }
 
-.jumbotron h1 {
+.head h1 {
   position: relative;
   top: 180px;
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 400;
   color: white;
-  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   margin: 0;
   padding: 0;
+  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
+  width: 100%;
   /*background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.3);*/
 }
@@ -53,7 +53,8 @@ html body {
   border: 0px;
 }
 */
-.jumbotron p {
+
+.head p {
   position: relative;
   top: 180px;
   font-size: 15px;
@@ -64,8 +65,6 @@ html body {
   color: white;
   /*background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.3);*/
-  margin: 0;
-  padding: 0;
   /*opacity: 0.50;*/
 }
 
@@ -152,7 +151,8 @@ h3 {
   position: relative;
   /*padding: 50px 0 50px 0;*/
   color: white;
-  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
+  /*text-shadow: 4px 3px 4px rgba(0,0,0,0.2);*/
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .works .jumbotron {
@@ -202,7 +202,7 @@ h3 {
 
 .skills li {
   display: inline-block;
-  padding: 0 6px 0 6px;
+/*  padding: 0 6px 0 6px;*/
 }
 
 .skills img {
@@ -215,7 +215,7 @@ h3 {
   height: auto;
   padding: 50px 0 50px 0;
   color: white;
-  background-color: steelblue;
+  background-color: black;
 }
 
 .contact .form-control {
@@ -227,8 +227,3 @@ h3 {
 .contact .textarea {
   height: 180px;
 }
-
-.col-sm-2 {
-  text-align: center;
-}
-
