@@ -36,9 +36,9 @@ html body {
 
 .head h1 {
   position: relative;
-  top: 180px;
-  font-size: 56px;
-  font-weight: 400;
+  top: 45%;
+  font-size: 48px;
+  font-weight: 700;
   color: white;
   margin: 0;
   padding: 0;
@@ -58,8 +58,8 @@ html body {
 
 .head p {
   position: relative;
-  top: 180px;
-  font-size: 15px;
+  top: 45%;
+  font-size: 12px;
   font-weight: bold !important;
   /*font-style: italic;*/
   font-weight: 300;
@@ -153,12 +153,12 @@ h3 {
   position: relative;
   /*padding: 50px 0 50px 0;*/
   color: white;
-  /*text-shadow: 4px 3px 4px rgba(0,0,0,0.2);*/
+  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .works .jumbotron {
-  background-image:url("../img/taal_crater.jpg");
+  background-image:url("../img/taal_crater_dark.jpg");
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -166,10 +166,9 @@ h3 {
   padding: 50px 0 50px 0;
 }
 
-/*.works .container {
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);
-}*/
+.works .col-sm-4 {
+  padding-bottom: 15px;
+}
 
 .works img {
   height: 100%;
@@ -214,18 +213,55 @@ h3 {
 
 .contact {
   position: relative;
-  height: auto;
-  padding: 50px 0 50px 0;
   color: white;
-  background-color: black;
+  text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
+}
+
+.contact .jumbotron {
+  background-image:url("../img/boat.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 50px 0 50px 0;
+}
+
+form {
+  text-align: right;
 }
 
 .contact .form-control {
-  border-radius: 0;
+  /*border-radius: 0;*/
   box-shadow: none;
-  border: 0;
+}
+
+.contact .form-control:focus {
+  border: 3px solid #333;
 }
 
 .contact .textarea {
   height: 180px;
+  text-decoration: none;
+  outline: none;
 }
+
+.contact .text {
+  height: 40px;
+}
+
+.contact .btn {
+  height: 40px;
+  width: 50%;
+  background-color: white;
+  color: #333;
+  border: 3px solid #333;
+}
+
+.contact .btn:hover {
+  background-color: #333;
+  color: white;
+}
+
+
+
+
