@@ -6,13 +6,14 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <title>Mark Hermano</title>
 </head>
 
 <body>
-  
+  <!-- header section -->
   <section>
     <div class="head">
       <div class="jumbotron">
@@ -21,14 +22,14 @@
       </div>
     </div>
   </section>
-
-   <nav>
+  <!-- navigation bar -->
+  <nav>
       <a href="#about">About</a>
       <a href="#works">Works</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
   </nav>
-
+  <!-- about section -->
   <section id="about" class="about">
   <div class="container">
       <h3 >About Me</h3>
@@ -59,50 +60,49 @@
         </div>
     </div>
   </section>
-</div>
-  
+  <!-- works section -->
   <section id="works" class="works">
     <div class="jumbotron">
     <div class="container">
       <h3>Works</h3>
       <div class="row">
         <div class="col-sm-4">
-                  <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg"><h4>CSS Zen Garden</h4></a>
+                  <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg"><h4>CSS Zen Gardenee</h4></a>
 
         </div>
         <div class="col-sm-4">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
         <div class="col-sm-4">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 text-center">
                   <a target="_blank" href="https://github.com/hermanomark"><img src="img/css_garden.jpg" class="img-responsive"><h4>CSS Zen Garden</h4></a>
         </div>
       </div>
      </div>
    </div>
   </section>
- 
+ <!-- skills section -->
   <section id="skills" class="skills">
     <div class="container">
       <h3>Skills</h3>
@@ -117,29 +117,34 @@
       </ul>
     </div>
   </section>
-  
+  <!-- contact section -->
   <section class="contact">
     <div class="jumbotron">
-    <div id="contact" class="container">
-      <h3>Contact</h3>
-      <h4>Send me a message...</h4>
-      <form>
-        <div class="row">
-          <div class="col-sm-6">
-            <form>
-              <input type="text" placeholder="Name"  class="form-control text" />
-              <br>
-              <input type="text" placeholder="Email Address"  class="form-control text"/>
-              <br>
-              <textarea placeholder="Message" class="form-control textarea"></textarea>
-              <br>
-              <input type="button" class="form-control btn" value="Submit" />
-            </form>
-        </div>
+      <div id="contact" class="container">
+        <h3>Contact</h3>
+          <div class="row">
+            <div class="col-sm-6">
+              <h4>Send me a message...</h4>
+              <form>
+                <input type="text" placeholder="Name"  class="form-control text" />
+                <br>
+                <input type="text" placeholder="Email Address"  class="form-control text"/>
+                <br>
+                <textarea placeholder="Message" class="form-control textarea"></textarea>
+                <br>
+                <input type="button" class="form-control btn" value="Submit" />
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <h4>Find me on...</h4>
+                <ul>
+                <li class="w3-xxxlarge"><a href="https://www.facebook.com/hermano.mark" target="_blank"><i class="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                <li class="w3-xxxlarge"><a href="https://www.linkedin.com/in/mark-hermano-a072b48a/" target="_blank"><i class="fa fa-linkedin"></i>&nbsp; Linkedin</a></li>
+                <li class="w3-xxxlarge"><a href="https://github.com/hermanomark" target="_blank"><i class="fa fa-github"></i>&nbsp; Github</a></li>
+              </ul>
+            </div>
+          </div>
       </div>
-      </form>
-    </div>
     </div>
   </section>
-
 </body>
