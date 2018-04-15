@@ -71,8 +71,8 @@ html body {
 }
 
 nav {
-  position: sticky !important;
-  top: 0 !important;
+  position: sticky;
+  top: 0;
   padding: 10px 0;
   margin: 0;
   display: inline-block;
@@ -290,7 +290,3 @@ form {
   opacity: 0.6;
   transition: 0.3s;
 }
-
-
-
-
