@@ -44,46 +44,19 @@ html body {
   padding: 0;
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   width: 100%;
-  /*background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);*/
 }
-
-/*.background_h1 {
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);
-  border: 0px;
-}
-*/
 
 .head p {
   position: relative;
   top: 45%;
   font-size: 9px;
-  font-weight: bold !important;
+/*  font-weight: bold !important;*/
   font-style: italic;
   font-weight: 300;
   text-shadow: 4px 3px 4px rgba(0,0,0,0.2);
   color: white;
-  /*background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.3);*/
+  letter-spacing: 0.05em;
   /*opacity: 0.50;*/
-}
-
-@media (max-width: 768px ) {
-
-  .head h1 {
-    font-size: 40px;
-  }
-
-  .head p {
-    font-size: 7px;
-  }
-
-  .bar {
-    font-size: 14px;
-    word-spacing: 1.6em;
-    padding: 7px 0;
-  }
 }
 
 nav {
@@ -225,7 +198,7 @@ h3 {
 
 .skills li {
   display: inline-block;
-  padding: 0 15px 0 15px;
+  padding: 0 45px 0 45px;
   font-size: 90px;
 }
 
@@ -233,6 +206,18 @@ h3 {
   height: 120px;
   width: 120px;
 }
+
+/*.skills 
+<li><i class="icon-html5"></i></li>
+        <li><i class="icon-css3"></i></li>
+        <li><i class="icon-bootstrap"></i></li>
+        <li><i class="icon-ruby"></i></li>
+        <li><i class="icon-ruby-on-rails"></i></li>
+        <li><i class="icon-javascript"></i></li>
+        <li><i class="icon-php"></i></li>
+        <li><i class="icon-jquery"></i></li>
+        <li><i class="icon-database-alt2"></i></li>*/
+
 
 .contact {
   position: relative;
@@ -302,4 +287,28 @@ form {
   color: orange;
   opacity: 0.6;
   transition: 0.3s;
+}
+
+/* adjusted some elements for smartphones */
+@media (max-width: 768px ) {
+
+  .head h1 {
+    font-size: 40px;
+  }
+
+  .head p {
+    font-size: 7px;
+  }
+
+  .bar {
+    font-size: 14px;
+    word-spacing: 1.6em;
+    padding: 7px 0;
+  }
+
+  .skills li {
+  display: inline-block;
+  padding: 0 4px 0 4px;
+  font-size: 90px;
+  }
 }
