@@ -207,17 +207,41 @@ h3 {
   width: 120px;
 }
 
-/*.skills 
-<li><i class="icon-html5"></i></li>
-        <li><i class="icon-css3"></i></li>
-        <li><i class="icon-bootstrap"></i></li>
-        <li><i class="icon-ruby"></i></li>
-        <li><i class="icon-ruby-on-rails"></i></li>
-        <li><i class="icon-javascript"></i></li>
-        <li><i class="icon-php"></i></li>
-        <li><i class="icon-jquery"></i></li>
-        <li><i class="icon-database-alt2"></i></li>*/
+.skills .icon-html5 {
+  color: coral;
+}
 
+.skills .icon-css3 {
+  color: dodgerblue;
+}
+
+.skills .icon-bootstrap {
+  color: indigo;
+}
+
+.skills .icon-ruby {
+  color: firebrick;
+}
+
+.skills .icon-ruby-on-rails {
+  color: firebrick;
+}
+
+.skills .icon-javascript {
+  color: gold;
+}
+
+.skills .icon-php {
+  color: blueviolet;
+}
+
+.skills .icon-jquery {
+  color: royalblue;
+}
+
+.skills .icon-database-alt2 {
+  color: cornflowerblue;
+}
 
 .contact {
   position: relative;
@@ -287,6 +311,11 @@ form {
   color: orange;
   opacity: 0.6;
   transition: 0.3s;
+}
+
+footer {
+  padding-top: 200px;
+  text-align: center;
 }
 
 /* adjusted some elements for smartphones */
