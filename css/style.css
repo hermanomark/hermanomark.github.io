@@ -169,7 +169,7 @@ h3 {
 .works a:hover h4 {
   transition: 0.3s;
   text-decoration: underline;
-  transform: scale(0.94,0.94);
+  transform: scale(0.96,0.96);
 }
 
 .works a:hover img {
