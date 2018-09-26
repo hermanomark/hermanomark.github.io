@@ -72,19 +72,23 @@ section.content .container {
 
 section.content h4 {
   color: navy;
-  /*font-weight: bold;*/
+}
+
+section img {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 section a, section .my-highlight {
   text-decoration: underline;
   color: navy;
   cursor: pointer;
-  /*font-weight: bold;*/
 }
 
 section a:hover {
   color: navy;
-  /*font-weight: bold;*/
 }
 
 /*style the footer*/
@@ -183,9 +187,5 @@ footer .my-copyright img {
 
   footer .my-copyright {
     padding-top: 80px;
-  }
-
-  footer .my-copyright img {
-   padding-top: 20px;
   }
 }
