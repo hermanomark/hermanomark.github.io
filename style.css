@@ -1,0 +1,191 @@
+/** {
+  outline: red solid 1px;
+}*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*make the navbar transparent*/
+header .navbar {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  background: none !important;
+  border: 0;
+  width: 100%;
+  color: white;
+}
+
+/*make the navbar logo responsive*/
+header .navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+header .carousel .my-carousel-header {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  z-index: 10;
+  color: white;
+}
+
+/*make the 'transform the way' font weight normal*/
+header .carousel .my-carousel-header .transform-the-way {
+  font-weight: normal;
+}
+
+/*make the carousel background images in css*/
+header .carousel .slide-1, 
+header .carousel .slide-2,
+header .carousel .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header .carousel .slide-1 {
+  background-image: url(./assets/taal_view.jpg); 
+}
+header .carousel .slide-2 {
+  background-image: url(./assets/taal_crater.jpg);
+}
+header .carousel .slide-3 {
+  background-image: url(./assets/boat.jpg);
+}
+
+/*style the content*/
+section.content {
+  background-color: floralwhite;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: black;
+  line-height: 1.7em;
+}
+
+section.content .container {
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+section.content h4 {
+  color: navy;
+  /*font-weight: bold;*/
+}
+
+section a, section .my-highlight {
+  text-decoration: underline;
+  color: navy;
+  cursor: pointer;
+  /*font-weight: bold;*/
+}
+
+section a:hover {
+  color: navy;
+  /*font-weight: bold;*/
+}
+
+/*style the footer*/
+footer {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: floralwhite;
+  color: black;
+}
+
+footer .my-footer-interchange-payment-logo {
+ width: 260px;
+}
+
+footer .my-footer-interchange-payment-logo img {
+ width: 100%;
+ height: auto;
+}
+
+
+footer .my-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .my-contact-title {
+  font-weight: bold;
+}
+
+footer .my-social-media ul {
+  width: 200px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+footer .my-social-media ul .my-follow-me {
+  font-weight: bold;
+}
+
+footer .my-social-media ul i {
+  cursor: pointer;
+  color: darkgray;
+  font-size: 18px;
+}
+
+footer .my-copyright {
+  padding-top: 30px;
+}
+
+footer .my-copyright .my-highlight {
+  color: orange;
+  cursor: pointer;
+}
+
+footer .my-copyright img {
+  width: 28%;
+}
+
+/*my media queries*/
+@media screen and (max-width: 992px) {
+  header .navbar-brand img {
+    width: 80%;
+  }
+
+  header .carousel .my-carousel-header {
+    top: 40%;
+    left: 15%;
+    color: white;
+  }
+
+  footer .my-footer-interchange-payment-logo img {
+   width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .navbar-brand img {
+    width: 60%;
+  }
+
+  header .carousel .my-carousel-header {
+    top: 35%;
+    left: 10%;
+    color: white;
+  }
+
+  footer .my-footer-interchange-payment-logo img {
+   width: 100%;
+  }
+
+  footer .my-social-media {
+    padding-top: 40px;
+  }
+
+  footer .my-copyright {
+    padding-top: 80px;
+  }
+
+  footer .my-copyright img {
+   padding-top: 20px;
+  }
+}
