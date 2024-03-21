@@ -1,0 +1,72 @@
+@media (max-width: 1024px) {
+  section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+    padding: 2em 1em;
+  }
+
+  .skills .box:nth-child(3) {
+    padding-left: 6em;
+  }
+}
+
+@media (max-width: 425px) {
+  section {
+    width: 95%;
+  }
+
+  li,
+  p,
+  span,
+  a {
+    line-height: 1.5;
+  }
+
+  .mjh {
+    flex-direction: column;
+  }
+
+  .mjh h1 {
+    font-size: 2.2em;
+  }
+
+  .mjh .left,
+  .mjh .right {
+    width: 100%;
+  }
+
+  .mjh .right {
+    margin-top: 2em;
+  }
+
+  .mjh .right .text-wrapper {
+    padding-left: 0px;
+  }
+
+  .mjh .other-info {
+    flex-direction: column;
+  }
+
+  .mjh .links,
+  .mjh .contact {
+    width: 100%;
+  }
+
+  .skills .box:nth-child(3) {
+    padding-left: 0;
+    margin-top: 1.8em;
+  }
+
+  .skills .skills-wrapper {
+    flex-direction: column;
+  }
+
+  .skills .box:nth-child(2) {
+    margin-top: 1.8em;
+  }
+}
